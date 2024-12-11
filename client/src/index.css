@@ -1,0 +1,16 @@
+:root {
+  /* colors palette*/
+  --bg-blue: #06141B;
+  --bg-gray: #171717;
+  --bg-black: #0A0A0A;
+  --input-gray: #262626;
+  --text-gray: #373737;
+  --placeholder-gray: #A3A3A3;
+  --text-white: #D4D4D4;
+}
+
+
+body {
+  font-family: "Poppins", serif;
+  background-color: var(--bg-blue);
+}

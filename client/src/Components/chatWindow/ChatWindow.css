@@ -1,0 +1,5 @@
+#chat-window {
+  background-color: var(--bg-gray);
+  width: 80%;
+  height: 70%;
+}
