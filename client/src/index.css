@@ -13,4 +13,12 @@
 body {
   font-family: "Poppins", serif;
   background-color: var(--bg-blue);
+  color: var(--text-white);
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }

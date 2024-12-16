@@ -1,0 +1,10 @@
+#chat-window {
+  display: flex;
+  height: 80%;
+  width: 80%;
+}
+
+#chat-box {
+  flex-grow: 1;
+  flex-shrink: 1;
+}

@@ -1,9 +1,10 @@
-import ChatWindow from "./Components/chatWindow/ChatWindow";
+import React from 'react';
+import MainView from './Components/MainView/MainView';
 
 function App() {
-  return (
-    <ChatWindow></ChatWindow>
-  );
+  return(
+    <MainView></MainView>
+  )
 }
 
 export default App;
