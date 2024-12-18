@@ -1,0 +1,29 @@
+.search-bar {
+  width: 90%;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-container {
+  text-align: end;
+  background-color: var(--bg-gray);
+  width: 500px;
+  height: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0.3em 1em;
+}
+
+input {
+  font-family: "Poppins", serif;
+  background-color: var(--bg-gray);
+  color: var(--text-white);
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}

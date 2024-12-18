@@ -1,7 +1,7 @@
 #chat-window {
   display: flex;
   height: 80%;
-  width: 80%;
+  width: 90%;
   background-color: var(--bg-gray);
   border-radius: 8px;
 }
