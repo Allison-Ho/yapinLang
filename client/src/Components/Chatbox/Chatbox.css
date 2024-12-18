@@ -1,3 +1,9 @@
+#chat-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .user {
   display: flex;
   align-items: flex-end;
@@ -48,4 +54,34 @@
 .ci {
   margin: 0;
   margin-left: 0.4em;
+}
+
+.input-msg {
+  background-color: var(--input-gray);
+  border-radius: 8px;
+  width: 90%;
+  display: flex;
+  margin: 1.5em auto;
+  min-height: 3em;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3em 1.2em;
+}
+
+.input-msg svg {
+  height: 1.4em;
+}
+
+.input-field {
+  font-family: "Poppins", serif;
+  background-color: var(--input-gray);
+  margin: 0.8em 0.3em;
+  width: 90%;
+  color: var(--text-white);
+  resize: none;
+  border: none;
+}
+
+.input-field:focus {
+  outline: none;
 }
