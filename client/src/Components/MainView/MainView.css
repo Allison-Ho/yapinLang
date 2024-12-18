@@ -1,9 +1,15 @@
-#chat-window {
+.main-view {
   display: flex;
   height: 80%;
-  width: 90%;
+  width: 95%;
+}
+
+.chat-window {
+  display: flex;
   background-color: var(--bg-gray);
   border-radius: 8px;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 #chat-box {

@@ -1,0 +1,24 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.7em;
+  margin-right: 1em;
+}
+
+.sidebar-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.4em;
+}
+
+.sidebar-tab img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.sidebar-tab svg {
+  width: 45px;
+}
